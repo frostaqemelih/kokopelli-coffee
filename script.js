@@ -136,37 +136,18 @@
     }, 2600);
   }
 
-  /* ============ SCROLL HERO — arka plan zoom-out + içerik süzülme ============
-     Bölüm ~240vh; .sh-stage sticky. Kaydırma oranına göre arka plan
-     görseli scale(1.14 → 1.0) ve içerik son %40'ta yukarı süzülür.
-     Mobil / reduced-motion → CSS ile klasik hero (JS burada devre dışı). */
-  var shero = document.querySelector(".scrollhero");
-  var shLayer = shero && shero.querySelector(".sh-layer");
-  var shContent = shero && shero.querySelector(".sh-content");
-  var shHint = shero && shero.querySelector(".sh-hint");
-  var heroScrubOn = shero && shLayer && !reduceMotion &&
-    window.matchMedia("(min-width: 901px)").matches;
-  if (heroScrubOn) {
-    var scrubTick = false;
-    var runScrub = function () {
-      scrubTick = false;
-      var total = shero.offsetHeight - window.innerHeight;
-      if (total <= 0) return;
-      var f = clamp(-shero.getBoundingClientRect().top / total, 0, 1);
-      shLayer.style.transform = "scale(" + (1.14 - 0.14 * f).toFixed(4) + ")";
-      var fade = clamp((f - 0.55) / 0.4, 0, 1);
-      if (shContent) {
-        shContent.style.opacity = (1 - fade).toFixed(3);
-        shContent.style.transform = "translateY(" + (-fade * 46).toFixed(1) + "px)";
+  /* HERO — sabit sinematik görsel; giriş animasyonu .sh-stage.is-in ile. */
+
+  /* ============ Aşağı-kaydır ipucunu ilk scroll'da gizle ============ */
+  var shHint = document.querySelector(".sh-hint");
+  if (shHint) {
+    var hideHint = function () {
+      if (window.scrollY > 40) {
+        shHint.style.opacity = "0";
+        window.removeEventListener("scroll", hideHint);
       }
-      if (shHint) shHint.style.opacity = f > 0.04 ? "0" : "";
     };
-    var onScrubScroll = function () {
-      if (!scrubTick) { scrubTick = true; requestAnimationFrame(runScrub); }
-    };
-    runScrub();
-    window.addEventListener("scroll", onScrubScroll, { passive: true });
-    window.addEventListener("resize", onScrubScroll, { passive: true });
+    window.addEventListener("scroll", hideHint, { passive: true });
   }
 
   /* ============ Magnetik butonlar ============ */
@@ -210,28 +191,4 @@
     counters.forEach(function (el) { cio.observe(el); });
   }
 
-  /* ============ Randevu formu ============
-     Form bilgileri hazır bir mesaj olarak WhatsApp'a taşınır. */
-  var form = document.getElementById("contact-form");
-  var successBox = document.getElementById("form-success");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var val = function (id) { var n = document.getElementById(id); return n ? n.value.trim() : ""; };
-      var ad = val("ad"), telefon = val("telefon");
-      if (!ad || !telefon) { document.getElementById(ad ? "telefon" : "ad").focus(); return; }
-      var hizmet = val("konu"), tarih = val("tarih"), mesaj = val("mesaj");
-      var lines = [
-        "Merhaba, Kokopelli Coffee Co. için talebim var.",
-        "Ad Soyad: " + ad,
-        "Telefon: " + telefon
-      ];
-      if (hizmet) lines.push("Konu: " + hizmet);
-      if (tarih) lines.push("Tarih / Kişi: " + tarih);
-      if (mesaj) lines.push("Not: " + mesaj);
-      window.open("https://wa.me/905529432416?text=" + encodeURIComponent(lines.join("\n")), "_blank", "noopener");
-      if (successBox) successBox.classList.add("show");
-      form.reset();
-    });
-  }
 })();

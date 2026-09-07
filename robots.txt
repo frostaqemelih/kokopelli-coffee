@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /404.html
-Disallow: /tesekkurler.html
 
 Sitemap: https://frostaqemelih.github.io/kokopelli-coffee/sitemap.xml
