@@ -1,0 +1,70 @@
+KOKOPELLİ COFFEE CO. — GÖRSEL ÜRETİM PROMPT'LARI (ChatGPT / GPT Image)
+=====================================================================
+Kullanım: her prompt = [ORTAK STİL] + [O görselin tarifi]. İngilizce ver, en iyi sonucu
+verir. İndirilen ORİJİNAL PNG'yi gönder (ekran görüntüsü değil). Claude tonlar + kırpar
++ siteye bağlar: hero 2000x1125 · hero-p 1080x1500 · mekan 1200x900.
+
+--- ORTAK STİL (her prompt'un başına ekle) ---
+Photorealistic editorial photograph, shot on a full-frame camera with a 35mm lens, natural
+available light, calm and warm mood. Color palette: roasted-coffee browns, warm cream, amber
+and caramel with a touch of terracotta — muted and filmic like Kodak Portra 400, soft
+highlights, fine grain, NOT oversaturated, no HDR. Setting: a boutique third-wave specialty
+coffee shop in Odunpazarı, Eskişehir — a historic quarter of restored Ottoman-era timber
+townhouses with painted wood facades, bay windows (cumba) and cobblestone streets. Shallow
+depth of field, refined and understated composition with generous negative space. NO text,
+letters, signage, logos or watermarks anywhere. No illustration, painting, 3D or CGI look.
+No people facing the camera — at most hands, or a softly blurred figure from behind.
+Realistic, undistorted hands.
+
+============================================================
+1) hero-1.jpg  — ANA GÖRSEL / MASAÜSTÜ   (yatay — "wide landscape 3:2")
+============================================================
+[ORTAK STİL] + The warm interior in the morning: a barista's hands (no face) doing a slow
+pour-over over a glass Chemex on a walnut-wood counter, a thin ribbon of steam rising, a
+gooseneck kettle mid-pour. Behind, softly out of focus: a large multi-pane timber bay
+window pouring in golden light, a few potted plants, brass and matte-black brewing gear, an
+exposed stone-and-timber wall. Wide horizontal framing, the pour-over just right of center,
+quiet empty space on the left.
+(Alternatif isteklerin: a) kapıdan geniş iç mekân görünümü — sıcak lambalar, cumba, sedir;
+ b) pencere kenarında tek seramik fincan filtre kahve makro — buhar + gün ışığı.)
+
+============================================================
+2) hero-1-p.jpg — MOBİL GÖRSEL   (dikey — "vertical portrait 3:4")
+============================================================
+[ORTAK STİL] + Same scene as the hero above but VERTICAL: the glass Chemex pour-over
+centered, the timber bay window and the warm café glowing behind it from top to bottom,
+generous head-room above the kettle and calm space below the carafe.
+
+============================================================
+3) mekan-1.jpg — İÇ MEKÂN / OTURMA ALANI   (yatay landscape 3:2)
+============================================================
+[ORTAK STİL] + A wide view of the seating area: a few small round wooden tables with
+cane/rattan chairs, a worn leather bench along a cream plaster wall, warm pendant bulbs,
+trailing plants, a stack of books, a large timber-framed window with soft daylight.
+Inviting and lived-in, mid-morning, empty of customers.
+
+============================================================
+4) mekan-2.jpg — ESPRESSO BAR / TEZGÂH   (yatay landscape 3:2)
+============================================================
+[ORTAK STİL] + The espresso bar from a three-quarter angle: a matte-black espresso machine
+on a walnut counter, a knock-box, portafilters, a small grinder, bags of whole-bean coffee
+on an open shelf behind, a chalkboard with NO readable writing (blank or blurred). A
+barista's hands (no face) tamping or steaming milk. Warm task lighting, brass accents,
+cream tiles.
+
+============================================================
+5) mekan-3.jpg — DETAY / KÖŞE   (yatay landscape 3:2)
+============================================================
+[ORTAK STİL] + An intimate detail: one cup of coffee and a small plate with a pastry on a
+marble-topped bistro table right beside the painted-wood bay window; low afternoon sun
+casting long warm shadows across the table; the cobblestone street softly blurred through
+the glass outside. Very shallow depth of field, editorial still-life feel.
+
+--- İSTERSEN (tam set tutarlılığı için) ---
+sig-1 (İMZA): [ORTAK STİL] + top-down of a single espresso in a small ceramic cup on a dark
+  slate surface, crema catching the light, a folded linen napkin beside it.
+sig-2 (DEMLEME): [ORTAK STİL] + a V60 dripper on a carafe on light wood, mid-bloom, steam.
+sig-3 (SOĞUK): [ORTAK STİL] + a tall glass of cold brew over clear ice on a stone counter,
+  condensation, warm blurred café behind.
+story (HİKÂYE): [ORTAK STİL] + freshly roasted coffee beans spilling from an open burlap
+  sack onto a dark wooden table, one wooden scoop, dramatic side light.
