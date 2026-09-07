@@ -18,17 +18,18 @@ MOBİL / WhatsApp: 0552 943 24 16.
 ADRES: İstiklal Mah. Sökmen Sk. No:7/B, 26040 Odunpazarı / Eskişehir.
 
 GÖRSELLER (Unsplash FREE lisans, sıcak tona işlendi, TEMSİLÎ):
-  hero-1.jpg .......... 2000x1125 · filmik grade'li pour-over sahnesi (masaüstü hero)
-  hero-1-p.jpg ........ 1080x1500 · dikey kırpım (mobil hero, <picture> ile)
+  hero-1.jpg .......... 2000x1125 · ChatGPT üretimi iç mekân pour-over (masaüstü hero) — montajdan kırpım, ~2x upscale
+  hero-1-p.jpg ........ 1080x1500 · ChatGPT üretimi Odunpazarı sokak+masa (mobil hero) — TAM ÇÖZÜNÜRLÜK
   sig-1/2/3.jpg ....... 900x1200 · İmza=espresso (slate) / Demleme=Chemex / Soğuk=buzlu latte
   story.jpg ........... 1500x1050 · çuval içinde kavrulmuş çekirdek (Hikâye bölümü)
-  mekan-1/2/3.jpg ..... 1200x900 · iç mekân / espresso bar / mekân detay
+  mekan-1/2/3.jpg ..... 1200x900 · ChatGPT üretimi: oturma alanı / espresso bar / pencere kenarı masa — montajdan kırpım, ~2.4x upscale
   ig-1..6.jpg ......... 900x900 kare · Instagram ızgarası (latte / cheers / süt / tatlı / demleme / çekirdek)
   og-cover.jpg ........ 1200x630 · "K" monogram kartı
 
->>> hero-1(-p) ve mekan-1/2/3: kullanıcı KENDİ üreteceği/çekeceği görsellerle değiştirecek
-    (prompt paketi verildi). Diğerleri de yayından önce işletmenin gerçek kareleriyle
-    değiştirilmeli (rızayla).
+>>> hero-1 ve mekan-1/2/3 tek montajdan kırpıldığı için ~2x büyütüldü (hafif yumuşak).
+    Daha keskin istersen ChatGPT'de bunları TEK TEK (ayrı ayrı) üret, gönder — değiştiririm.
+    hero-1-p tam çözünürlük, sorun yok. Hepsi yayından önce işletmenin gerçek
+    kareleriyle de değiştirilebilir (rızayla).
 
 --------------------------------------------------
 YAYINDAN ÖNCE DOĞRULANACAKLAR
