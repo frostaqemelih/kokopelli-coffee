@@ -17,15 +17,18 @@ JSON-LD @type CafeOrCoffeeShop. İletişim formu YOK; sticky mobil CTA çubuğu 
 MOBİL / WhatsApp: 0552 943 24 16.
 ADRES: İstiklal Mah. Sökmen Sk. No:7/B, 26040 Odunpazarı / Eskişehir.
 
-GÖRSELLER (tümü Unsplash FREE lisans, sıcak tona işlendi, TEMSİLÎ):
-  hero-1.jpg .......... 1920x1180 · pour-over sahnesi, aşağı+sola doğru koyulaştırılmış
-  sig-1/2/3.jpg ....... 900x1200 · İmza (espresso) / Demleme (french press) / Soğuk (cold brew)
+GÖRSELLER (Unsplash FREE lisans, sıcak tona işlendi, TEMSİLÎ):
+  hero-1.jpg .......... 2000x1125 · filmik grade'li pour-over sahnesi (masaüstü hero)
+  hero-1-p.jpg ........ 1080x1500 · dikey kırpım (mobil hero, <picture> ile)
+  sig-1/2/3.jpg ....... 900x1200 · İmza=espresso (slate) / Demleme=Chemex / Soğuk=buzlu latte
   story.jpg ........... 1500x1050 · çuval içinde kavrulmuş çekirdek (Hikâye bölümü)
   mekan-1/2/3.jpg ..... 1200x900 · iç mekân / espresso bar / mekân detay
-  ig-1..6.jpg ......... 900x900 kare · Instagram ızgarası (tıkla → profil)
+  ig-1..6.jpg ......... 900x900 kare · Instagram ızgarası (latte / cheers / süt / tatlı / demleme / çekirdek)
   og-cover.jpg ........ 1200x630 · "K" monogram kartı
 
->>> Yayından önce işletmenin kendi mekân/kahve/pastane kareleriyle değiştirin (rızayla).
+>>> hero-1(-p) ve mekan-1/2/3: kullanıcı KENDİ üreteceği/çekeceği görsellerle değiştirecek
+    (prompt paketi verildi). Diğerleri de yayından önce işletmenin gerçek kareleriyle
+    değiştirilmeli (rızayla).
 
 --------------------------------------------------
 YAYINDAN ÖNCE DOĞRULANACAKLAR
