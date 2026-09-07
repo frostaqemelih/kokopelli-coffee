@@ -9,8 +9,7 @@
      → perde ortadan ikiye ayrılır → DOM'dan kaldırılır. */
   var loaderEl = document.getElementById("loader");
   function startHeroIntro() {
-    var st = document.querySelector(".sh-stage");
-    if (st) st.classList.add("is-in");
+    /* Hero içeriği genel .reveal sistemiyle görünür; loader kalkınca sweep() zaten çalışır. */
   }
   if (loaderEl) {
     var killLoader = function () {
@@ -134,20 +133,6 @@
     window.setTimeout(function () {
       if (revealTargets.length) revealTargets.slice().forEach(show);
     }, 2600);
-  }
-
-  /* HERO — sabit sinematik görsel; giriş animasyonu .sh-stage.is-in ile. */
-
-  /* ============ Aşağı-kaydır ipucunu ilk scroll'da gizle ============ */
-  var shHint = document.querySelector(".sh-hint");
-  if (shHint) {
-    var hideHint = function () {
-      if (window.scrollY > 40) {
-        shHint.style.opacity = "0";
-        window.removeEventListener("scroll", hideHint);
-      }
-    };
-    window.addEventListener("scroll", hideHint, { passive: true });
   }
 
   /* ============ Magnetik butonlar ============ */
